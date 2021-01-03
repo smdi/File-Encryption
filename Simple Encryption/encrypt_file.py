@@ -88,7 +88,7 @@ def encodeFile(filename):
 
 
 # print(enocdeWord("Apple"))
-print(enocdeWord("p"))
+# print(enocdeWord(""))
 
 
 

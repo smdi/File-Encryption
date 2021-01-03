@@ -56,7 +56,7 @@ def decoding(filename):
 
 # decoding("input.txt")
 
-print(decodeWord("1001100500000011100100018000001110010000100010111001000110000011"))
+# print(decodeWord(""))
 
 
 

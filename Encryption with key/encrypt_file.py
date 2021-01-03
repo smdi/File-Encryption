@@ -83,7 +83,7 @@ def encodeFile(filename):
 # encodeFile('secret.txt')
 #
 # print(enocdeWord("Apple"))
-print(enocdeWord("Apple"))
+# print(enocdeWord("Apple"))
 
 
 

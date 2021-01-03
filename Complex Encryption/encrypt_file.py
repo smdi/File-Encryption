@@ -81,10 +81,10 @@ def encodeFile(filename):
 
 
 # encodeFile('input.txt')
-# encodeFile('secret.txt')
+
 #
 # print(enocdeWord("Apple"))
-print(enocdeWord("Apple"))
+# print(enocdeWord("pune"))
 
 
 
