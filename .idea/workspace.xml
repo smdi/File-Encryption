@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32fbf55c-c803-4c2d-806d-8db4e727f9eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Complex Encryption/train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Encryption with key/train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Simple Encryption/train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/title.tsv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Complex Encryption/decrypt_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/Complex Encryption/decrypt_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Complex Encryption/encrypt_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/Complex Encryption/encrypt_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Complex Encryption/repeated_count.py" beforeDir="false" afterPath="$PROJECT_DIR$/Complex Encryption/repeated_count.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Encryption with key/decrypt_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/Encryption with key/decrypt_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Encryption with key/encrypt_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/Encryption with key/encrypt_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Encryption with key/repeated_count.py" beforeDir="false" afterPath="$PROJECT_DIR$/Encryption with key/repeated_count.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Encryption/decrypt_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Encryption/decrypt_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Encryption/encrypt_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Encryption/encrypt_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simple Encryption/repeated_count.py" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Encryption/repeated_count.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -296,18 +283,25 @@
       <option name="project" value="LOCAL" />
       <updated>1609604984692</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="done encryption of 3 versions of encryptions">
+      <created>1609689748604</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609689748604</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18005952" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18005952" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32872504" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31490016" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31490016" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39938557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -342,7 +336,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added three different versions of encryptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="added three different versions of encryptions" />
+    <MESSAGE value="done encryption of 3 versions of encryptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="done encryption of 3 versions of encryptions" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/MainCode.py" />
