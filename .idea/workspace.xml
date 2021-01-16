@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32fbf55c-c803-4c2d-806d-8db4e727f9eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Replacement Encryption/decrypt_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Replacement Encryption/encrypt_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Replacement Encryption/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Training Scripts/replacement_enc_trainer.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Training Scripts/train_simple_file_enc (1).ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simple Encryption/network.py" beforeDir="false" afterPath="$PROJECT_DIR$/Simple Encryption/network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_simple_file_enc.ipynb" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +19,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/title.tsv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="-11210204">
+              <caret line="30168" column="8" selection-start-line="30168" selection-start-column="8" selection-end-line="30168" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,6 +54,11 @@
       <find>1000100000000000</find>
       <find>1000100000000001</find>
       <find>p1000436</find>
+      <find>getTrainTestData</find>
+      <find>126</find>
+      <find>223</find>
+      <find>tiffany</find>
+      <find>[A-Z]+</find>
     </findStrings>
     <replaceStrings>
       <replace>0</replace>
@@ -88,6 +111,10 @@
         <option value="$PROJECT_DIR$/Encryption with key/decrypt_file.py" />
         <option value="$PROJECT_DIR$/Encryption with key/train.py" />
         <option value="$PROJECT_DIR$/Complex Encryption/train.py" />
+        <option value="$PROJECT_DIR$/Simple Encryption/network.py" />
+        <option value="$PROJECT_DIR$/Replacement Encryption/decrypt_file.py" />
+        <option value="$PROJECT_DIR$/Replacement Encryption/encrypt_file.py" />
+        <option value="$PROJECT_DIR$/Replacement Encryption/train.py" />
       </list>
     </option>
   </component>
@@ -114,7 +141,7 @@
             <path>
               <item name="file_encryption" type="b2602c69:ProjectViewProjectNode" />
               <item name="file_encryption" type="462c0819:PsiDirectoryNode" />
-              <item name="Complex Encryption" type="462c0819:PsiDirectoryNode" />
+              <item name="Training Scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -124,6 +151,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -149,8 +177,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.train">
-    <configuration name="decrypt_file (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.train (2)">
+    <configuration name="decrypt_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="file_encryption" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -158,11 +186,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Simple Encryption" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Replacement Encryption" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Simple Encryption/decrypt_file.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Replacement Encryption/decrypt_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,7 +199,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="decrypt_file (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="encrypt_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="file_encryption" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,32 +207,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Complex Encryption" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Replacement Encryption" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Complex Encryption/decrypt_file.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="encrypt_file (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="file_encryption" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Simple Encryption" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Simple Encryption/encrypt_file.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Replacement Encryption/encrypt_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -226,6 +233,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Encryption with key/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="file_encryption" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Replacement Encryption" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Replacement Encryption/train.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -257,11 +285,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.train (2)" />
+        <item itemvalue="Python.decrypt_file" />
+        <item itemvalue="Python.encrypt_file" />
         <item itemvalue="Python.train" />
         <item itemvalue="Python.train (1)" />
-        <item itemvalue="Python.decrypt_file (1)" />
-        <item itemvalue="Python.encrypt_file (1)" />
-        <item itemvalue="Python.decrypt_file (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -290,24 +318,32 @@
       <option name="project" value="LOCAL" />
       <updated>1609689748604</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="done encryption of 3 versions of encryptions">
+      <created>1609690295274</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609690295274</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18005952" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32872504" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31490016" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23502304" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39938557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32872504" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3686636" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -340,11 +376,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="done encryption of 3 versions of encryptions" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MainCode.py" />
-    <entry file="file://$PROJECT_DIR$/tempCodeRunnerFile.py" />
-    <entry file="file://$PROJECT_DIR$/BinaryCodes.txt" />
-    <entry file="file://$PROJECT_DIR$/DecodedMessage.txt" />
-    <entry file="file://$PROJECT_DIR$/Decode.py" />
     <entry file="file://$PROJECT_DIR$/Dict.txt" />
     <entry file="file://$PROJECT_DIR$/InputText.txt_encodedFile.txt" />
     <entry file="file://$PROJECT_DIR$/DecodingDictFile.txt" />
@@ -490,27 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Simple Encryption/decrypt_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Simple Encryption/encrypt_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/title.tsv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="154">
-          <caret line="9497" column="8" selection-start-line="9497" selection-end-line="9497" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Complex Encryption/secret.txt_encodedFile.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -522,13 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Simple Encryption/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -549,47 +552,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Simple Encryption/title_encoded.tsv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="292">
-          <caret line="18994" column="43" selection-start-line="18994" selection-start-column="43" selection-end-line="18994" selection-end-column="43" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-text-editor">
-        <state relative-caret-position="2656">
-          <caret line="18994" column="43" lean-forward="true" selection-start-line="18994" selection-start-column="43" selection-end-line="18994" selection-end-column="43" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Encryption with key/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="e#2#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Encryption with key/title_encoded.tsv">
-      <provider editor-type-id="csv-text-editor">
-        <state relative-caret-position="-322644" />
-      </provider>
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Complex Encryption/title_complex_encoded.tsv">
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="-107">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Simple Encryption/title_encoded.tsv" />
+    <entry file="file://$PROJECT_DIR$/Encryption with key/title_encoded.tsv" />
     <entry file="file://$PROJECT_DIR$/Complex Encryption/train.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -597,6 +561,124 @@
           <folding>
             <element signature="e#2#12#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Simple Encryption/encrypt_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="50" column="24" lean-forward="true" selection-start-line="36" selection-end-line="50" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Encryption with key/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#2#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Simple Encryption/decrypt_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Simple Encryption/network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="142" selection-start-line="142" selection-end-line="142" />
+          <folding>
+            <element signature="e#9#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Simple Encryption/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+          <folding>
+            <element signature="e#2#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Replacement Encryption/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding>
+            <element signature="e#12#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Replacement Encryption/decrypt_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Replacement Encryption/encrypt_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Replacement Encryption/title_encoded.tsv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="490">
+          <caret line="30851" column="51" lean-forward="true" selection-start-line="30842" selection-end-line="30851" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Simple Encryption/title_simple_encoded.tsv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="276">
+          <caret line="18982" column="36" lean-forward="true" selection-start-line="18982" selection-start-column="36" selection-end-line="18982" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Encryption with key/title_key_encoded.tsv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="259">
+          <caret line="18981" lean-forward="true" selection-start-line="18981" selection-end-line="18981" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Complex Encryption/title_complex_encoded.tsv">
+      <provider editor-type-id="csv-text-editor">
+        <state relative-caret-position="-107">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="446">
+          <caret line="18992" column="120" lean-forward="true" selection-start-line="18976" selection-end-line="18992" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Training Scripts/train_simple_file_enc (1).ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/title.tsv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-11210204">
+          <caret line="30168" column="8" selection-start-line="30168" selection-start-column="8" selection-end-line="30168" selection-end-column="8" />
         </state>
       </provider>
     </entry>
