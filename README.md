@@ -122,9 +122,11 @@ This model predicts correct values for some data and may predicts wrong for some
 this is due to error present in Loss(MAE) during training.
 
 Providing below the drive link which contains notebook used for training and trained model in h5 format
+```
 
-[open folder](https://drive.google.com/drive/folders/1xGZkXXCtq9wnM73_QjH5siNOFczqZMsa?usp=sharing)
+[open folder for training and trained model in h5 format](https://drive.google.com/drive/folders/1xGZkXXCtq9wnM73_QjH5siNOFczqZMsa?usp=sharing)
 
+```
 
 This is purely a capability of DeepLearning Models, we may achieve this with further advancement in the field of AI.
 
