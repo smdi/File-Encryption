@@ -30,7 +30,7 @@ def enocdeWord(word):
 
 
 
-# print(enocdeWord("Apple"))
+print(enocdeWord("Ant"))
 
 
 

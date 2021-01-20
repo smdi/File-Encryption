@@ -68,14 +68,64 @@ All these encryptions are specifically written for this project.
 
 The training has given to neural networks with different parameters and architectures, 
 Results found that these models are not able to find the patterns how the encryption has been done.
-Encryption data is statistically indistinguishable from true randomness. 
+Encryption data is statistically indistinguishable from randomness. 
 Machine learning is generally based on discovering statistical patterns in the data, 
 if data is random, models will not be able to find the patterns.
 
-If encrypitons are simple we can come closer to the solution, 
+
 if there is large amount of randomness it becomes more difficult to decrypt the data.
+We need more computational power and architecture to train more complex encryptions, 
+we may come closer to the actual values that purely depends upon the computational power and architecture of model.
 
 Loss functions will move from infinity to min value possible and after finding a max possible min value,
-the loss function doesnot show any dip to minimum value(zero), making wrong predictions ultimately.
+the loss function doesnot show any dip to minimum value(zero),
+the predictions may be closely related to actual values or may not depends on randomness of input data.
+
+
+If encrypitons are simple we can come closer to the solution, 
+as we have successfully decrypted the  "Replacement Encryption"
+
+
+
+Model summary, which is used for training of "Replacement Encryption" data
+
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+dense (Dense)                (None, 2100)              4200      
+_________________________________________________________________
+dense_1 (Dense)              (None, 1750)              3676750   
+_________________________________________________________________
+dense_2 (Dense)              (None, 1400)              2451400   
+_________________________________________________________________
+dense_3 (Dense)              (None, 1050)              1471050   
+_________________________________________________________________
+dense_4 (Dense)              (None, 700)               735700    
+_________________________________________________________________
+dense_5 (Dense)              (None, 350)               245350    
+_________________________________________________________________
+dense_6 (Dense)              (None, 1)                 351       
+=================================================================
+Total params: 8,584,801
+Trainable params: 8,584,801
+Non-trainable params: 0
+
+
+"Loss function used : MAE -> 1.1 (error)"
+
+xtest       -> ant
+ytest       -> 126121302070
+ypred       -> ant
+
+This model predicts correct values for some data and may predicts wrong for some data, 
+this is due to error present in Loss(MAE) during training.
+
+Providing below the drive link which contains notebook used for training and trained model in h5 format
+
+[open folder](https://drive.google.com/drive/folders/1xGZkXXCtq9wnM73_QjH5siNOFczqZMsa?usp=sharing)
+
+
+This is purely a capability of DeepLearning Models, we may achieve this with further advancement in the field of AI.
 
 ```
