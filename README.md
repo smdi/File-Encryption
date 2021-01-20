@@ -5,7 +5,8 @@ An attempt to use DeepLearning to decode the file encryptions
 
 Four Types of Encryptions has been chosen for the project
 
-1: Replacement Encryption -> It's a simple encryption like a ceaser cipher, its replaces the characters with some numbers as shown,
+1: Replacement Encryption
+It's a simple encryption like a ceaser cipher, its replaces the characters with some numbers as shown,
 
 
 sports	198041105120189020701980
@@ -13,7 +14,8 @@ tehnounion	2070522081902130512021602130918051202130
 ruusan	189021602160198012602130
 
 
-2: Simple Encryption      -> It's an encryption which uses 16 digit pattern code as shown,  
+2: Simple Encryption  
+It's an encryption which uses 16 digit pattern code as shown,  
 
 
 
@@ -23,7 +25,8 @@ arroz	10000000001110011000001010500001100000101060000110010101000000011000010011
 
 
 
-3: Encryption with key    -> It's an encryption which uses key with 16 digit pattern code as shown,
+3: Encryption with key     
+It's an encryption which uses key with 16 digit pattern code as shown,
 
 
 
@@ -33,7 +36,8 @@ arroz	90001172833560099000118293345009900011829344500990011277832450099000127299
 
 
 
-4: Complex Encryption     -> It's an encryption which has key with 16 digit pattern code, along with the rotation of keys as shown,
+4: Complex Encryption     
+It's an encryption which has key with 16 digit pattern code, along with the rotation of keys as shown,
 
 
 
