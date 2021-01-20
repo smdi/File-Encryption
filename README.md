@@ -75,7 +75,8 @@ if data is random, models will not be able to find the patterns.
 
 if there is large amount of randomness it becomes more difficult to decrypt the data.
 We need more computational power and architecture to train more complex encryptions, 
-we may come closer to the actual values that purely depends upon the computational power and architecture of model.
+we may come closer to the actual values that purely depends upon the computational power 
+and architecture of model.
 
 Loss functions will move from infinity to min value possible and after finding a max possible min value,
 the loss function doesnot show any dip to minimum value(zero),
@@ -128,6 +129,7 @@ Providing below the drive link which contains notebook used for training and tra
 
 ```
 
-This is purely a capability of DeepLearning Models, we may achieve this with further advancement in the field of AI.
+This is purely a capability of DeepLearning Models, 
+we may achieve this with further advancement in the field of AI.
 
 ```
